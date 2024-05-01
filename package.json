@@ -1,0 +1,19 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "Flow Distribution Algorithm",
+  "main": "index.js",
+  "type": "module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.mjs" 
+  },
+  "author": "Jayesh Kakhani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
